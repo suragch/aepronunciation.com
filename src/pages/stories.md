@@ -2,6 +2,8 @@
 title: Practice Stories
 ---
 
+import AudioPlayer from '@site/src/components/AudioPlayer';
+
 # Practice Stories for Pronunciation
 
 These short stories are designed to help you practice your pronunciation. Each story includes an audio recording and a list of vocabulary words to focus on.
