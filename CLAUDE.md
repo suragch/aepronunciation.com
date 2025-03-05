@@ -12,7 +12,7 @@
 - **TypeScript**: Use JSDoc annotations with `@ts-check` for type checking
 - **Naming**: PascalCase for components, camelCase for functions/variables
 - **CSS**: Use CSS modules with `.module.css` extension
-- **Docs/Blog**: Follow Docusaurus MDX conventions for content
+- **Content**: Follow Docusaurus MDX conventions for content
 
 ## Error Handling
 - Set `onBrokenLinks: 'throw'` for production builds
@@ -20,8 +20,6 @@
 - Add descriptive error messages in user-facing components
 
 ## Project Structure
-- `/docs`: Documentation content
-- `/blog`: Blog posts
 - `/src/components`: React components
 - `/src/pages`: Website pages
 - `/src/css`: Global styles
