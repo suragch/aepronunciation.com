@@ -44,23 +44,17 @@ export default function Home() {
         <div className="container margin-vert--xl">
           <div className="row">
             <div className="col col--8 col--offset-2">
-              <Heading as="h2">Welcome to AEPronunciation</Heading>
+              <Heading as="h2">Welcome</Heading>
               <p>
-                Welcome to AEPronunciation.com, your resource for improving your American English pronunciation. 
-                We offer free pronunciation lessons and a mobile app to help you speak English clearly and confidently.
+                Welcome to aePronunciation.com, your resource for improving your American English pronunciation. 
+                Study the pronunciation lessons and use the mobile app to help you speak English clearly and confidently.
               </p>
               
-              <Heading as="h3">Our Resources</Heading>
+              <Heading as="h3">Resources</Heading>
               <ul>
-                <li><strong>Free Lessons</strong>: Step-by-step guides for specific sounds and pronunciation challenges</li>
-                <li><strong>Pronunciation App</strong>: Practice and get feedback on your pronunciation anywhere</li>
+                <li><strong>Lessons</strong>: Topical lessons for specific sounds, stress, and intonation</li>
+                <li><strong>Pronunciation App</strong>: Train your ear to recognize the subtle differences between sounds</li>
               </ul>
-              
-              <Heading as="h3">Why Improve Your Pronunciation?</Heading>
-              <p>
-                Clear pronunciation helps others understand you better and gives you more confidence when speaking English.
-                Our approach focuses on the most important aspects of pronunciation that make the biggest difference in being understood.
-              </p>
             </div>
           </div>
         </div>

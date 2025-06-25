@@ -7,16 +7,15 @@ export default function AppPage() {
   return (
     <Layout
       title="American English Pronunciation App"
-      description="Download our American English pronunciation app to improve your speaking skills and get real-time feedback on your pronunciation.">
+      description="Download the app to improve your pronunciation.">
       <main>
         <div className="container margin-vert--xl">
           <div className="row">
             <div className="col col--8 col--offset-2">
-              <Heading as="h1">AE Pronunciation App</Heading>
+              <Heading as="h1">American English Pronunciation App</Heading>
               
               <p>
-                Our mobile app helps you practice your American English pronunciation anywhere, 
-                with instant feedback and personalized exercises.
+                The mobile app helps you practice your American English pronunciation anywhere.
               </p>
               
               <div className="gallery" style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginBottom: '30px'}}>
@@ -48,38 +47,6 @@ export default function AppPage() {
                 </Link>
               </p>
               
-              <Heading as="h2">App Features</Heading>
-              <ul>
-                <li><strong>Sound Library</strong>: Practice all American English sounds</li>
-                <li><strong>Interactive Exercises</strong>: Get real-time feedback on your pronunciation</li>
-                <li><strong>Progress Tracking</strong>: Monitor your improvement over time</li>
-                <li><strong>Offline Mode</strong>: Practice without an internet connection</li>
-              </ul>
-              
-              <Heading as="h2">How It Works</Heading>
-              <p>
-                The app uses speech recognition technology to analyze your pronunciation and 
-                provide instant feedback. Practice with word lists, sentences, and dialogues 
-                designed specifically for non-native English speakers.
-              </p>
-              
-              <Heading as="h2">User Reviews</Heading>
-              <div style={{ 
-                padding: '20px', 
-                backgroundColor: '#f0f4f8', 
-                borderRadius: '5px',
-                marginBottom: '15px'
-              }}>
-                <p>"This app has helped me improve my pronunciation tremendously. The feedback is accurate and helpful." - Maria S.</p>
-              </div>
-              
-              <div style={{ 
-                padding: '20px', 
-                backgroundColor: '#f0f4f8', 
-                borderRadius: '5px'
-              }}>
-                <p>"I've tried many pronunciation apps, but this one is by far the most effective. Highly recommended!" - Takashi M.</p>
-              </div>
             </div>
           </div>
         </div>

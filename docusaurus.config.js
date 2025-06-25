@@ -63,12 +63,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/social-card.png',
       navbar: {
-        title: 'AE Pronunciation',
+        title: 'American English Pronunciation',
         logo: {
-          alt: 'AE Pronunciation Logo',
+          alt: 'American English Pronunciation Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -123,7 +122,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} aepronunciation.com. All rights reserved.`,
+        copyright: `${new Date().getFullYear()} aepronunciation.com. No rights reserved.`,
       },
       prism: {
         theme: prismThemes.github,
