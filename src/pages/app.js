@@ -42,9 +42,9 @@ export default function AppPage() {
               </div>
               
               <p style={{ textAlign: 'center' }}>
-                <Link to="/uploads/2020/05/aePronunciation_2.2.0.apk">
+                <a href="/uploads/2020/05/aePronunciation_2.2.0.apk" download>
                   Android APK direct download
-                </Link>
+                </a>
               </p>
               
             </div>
